@@ -1,8 +1,7 @@
-package com.cde.enablement.hystrixredisexample.controller;
+package com.cde.enablement.hystrixredisdemo.controller;
 
-import com.cde.enablement.hystrixredisexample.client.CharacterClient;
-import com.cde.enablement.hystrixredisexample.model.Character;
-import com.cde.enablement.hystrixredisexample.service.CharacterService;
+import com.cde.enablement.hystrixredisdemo.model.Character;
+import com.cde.enablement.hystrixredisdemo.service.CharacterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;

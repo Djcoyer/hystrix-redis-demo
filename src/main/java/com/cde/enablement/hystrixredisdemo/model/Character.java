@@ -1,4 +1,4 @@
-package com.cde.enablement.hystrixredisexample.model;
+package com.cde.enablement.hystrixredisdemo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

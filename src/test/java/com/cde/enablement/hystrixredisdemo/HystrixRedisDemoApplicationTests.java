@@ -1,4 +1,4 @@
-package com.cde.enablement.hystrixredisexample;
+package com.cde.enablement.hystrixredisdemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class HystrixRedisExampleApplicationTests {
+public class HystrixRedisDemoApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,4 +1,4 @@
-package com.cde.enablement.hystrixredisexample;
+package com.cde.enablement.hystrixredisdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 @EnableCircuitBreaker
 @EnableRedisRepositories
 @EnableCaching
-public class HystrixRedisExampleApplication {
+public class HystrixRedisDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HystrixRedisExampleApplication.class, args);
+		SpringApplication.run(HystrixRedisDemoApplication.class, args);
 	}
 
 }

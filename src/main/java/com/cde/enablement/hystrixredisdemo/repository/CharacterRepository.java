@@ -1,6 +1,6 @@
-package com.cde.enablement.hystrixredisexample.repository;
+package com.cde.enablement.hystrixredisdemo.repository;
 
-import com.cde.enablement.hystrixredisexample.model.Character;
+import com.cde.enablement.hystrixredisdemo.model.Character;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CharacterRepository extends CrudRepository<Character, Long> {

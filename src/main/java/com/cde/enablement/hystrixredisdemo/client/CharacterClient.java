@@ -1,7 +1,7 @@
-package com.cde.enablement.hystrixredisexample.client;
+package com.cde.enablement.hystrixredisdemo.client;
 
-import com.cde.enablement.hystrixredisexample.client.fallback.CharacterFallback;
-import com.cde.enablement.hystrixredisexample.model.Character;
+import com.cde.enablement.hystrixredisdemo.client.fallback.CharacterFallback;
+import com.cde.enablement.hystrixredisdemo.model.Character;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

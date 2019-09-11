@@ -1,7 +1,7 @@
-package com.cde.enablement.hystrixredisexample.service;
+package com.cde.enablement.hystrixredisdemo.service;
 
-import com.cde.enablement.hystrixredisexample.client.CharacterClient;
-import com.cde.enablement.hystrixredisexample.model.Character;
+import com.cde.enablement.hystrixredisdemo.client.CharacterClient;
+import com.cde.enablement.hystrixredisdemo.model.Character;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
